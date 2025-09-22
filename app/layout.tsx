@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Work_Sans } from "next/font/google";
 import "./globals.css";
-import { Header } from "@/modules";
+import { Footer, Header } from "@/modules";
 import { HeroUIProvider } from "@heroui/system";
 
 
@@ -29,6 +29,7 @@ export default function RootLayout({
         <HeroUIProvider>
           <Header />
           {children}
+          <Footer/>
         </HeroUIProvider>
       </body>
     </html>
