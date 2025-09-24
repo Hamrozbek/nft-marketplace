@@ -1,10 +1,11 @@
+import { Hero } from '@/modules'
 import React from 'react'
 
 const page = () => {
   return (
-    <div className='containers'>
-      App
-    </div>
+    <main>
+      <Hero/>
+    </main>
   )
 }
 
