@@ -1,4 +1,5 @@
 import { Button, CustomImage } from "@/components"
+import LangConfig from "@/components/LangConfig"
 import { HamburgerMenuIcon, SignUpIcon } from "@/icons"
 import { useTranslations } from "next-intl"
 import Link from "next/link"
@@ -15,11 +16,10 @@ const Header = () => {
         <Link className="text-white hover:text-[#A259FF] duration-300 text-[16px] font-semibold" href={"/marketplace"}>{t("marketplace")}</Link>
         <Link className="text-white hover:text-[#A259FF] duration-300 text-[16px] font-semibold" href={"/rankings"}>{t("rankings")}</Link>
         <Link className="text-white hover:text-[#A259FF] duration-300 text-[16px] font-semibold" href={"/connect-wallet"}>{t("connectWallet")}</Link>
-        <Button icon={<SignUpIcon/>} iconPosition="left">{t("signUp")}</Button>
+        <Button icon={<SignUpIcon />} iconPosition="left">{t("signUp")}</Button>
+        <LangConfig/>
       </div>
-      <button className="cursor-pointer lg:hidden">
-        <HamburgerMenuIcon/>
-      </button>
+      <button className="cursor-pointer lg:hidden"><HamburgerMenuIcon /></button>
     </div>
   )
 }

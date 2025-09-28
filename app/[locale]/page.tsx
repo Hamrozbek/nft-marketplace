@@ -1,10 +1,11 @@
-import { Hero } from '@/modules'
-import React from 'react'
+import { Collection, Creators, Hero } from '@/modules'
 
 const page = () => {
   return (
     <main>
       <Hero/>
+      <Collection/>
+      <Creators/>
     </main>
   )
 }
