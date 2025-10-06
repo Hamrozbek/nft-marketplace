@@ -1,4 +1,4 @@
-export interface AuctionType {
+export interface AuctionsType {
     id: string
     description: string,
     details: Array<string>,

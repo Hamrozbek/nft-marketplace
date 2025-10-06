@@ -1,4 +1,6 @@
-export interface CreatorType {
+import { CollectionType } from "./CollectionType"
+
+export interface SingleCreatorType {
     id: string,
     username: string,
     email: string,
@@ -13,10 +15,8 @@ export interface CreatorType {
     instagramAccLink: string,
     createdAt: string,
     updatedAt: string,
-    createdNFTs: any,
-    ownedNFTs: any,
-    collections: any,
-    change?: string;
-    nftsSold?: number;
-    volume?: string;
+    createdNFTs: [],
+    ownedNFTs: [],
+    collections: CollectionType[],
+    auctionResults: []
 }

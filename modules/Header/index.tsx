@@ -13,11 +13,11 @@ const Header = () => {
         <CustomImage classList="!w-[182px] !h-[24px] lg:!w-[243px] lg:!h-[32px]" src="/site-logo.svg" alt="site-logo" W={243} H={32} />
       </Link>
       <div className="hidden lg:flex items-center gap-[30px]">
-        <Link className="text-white hover:text-[#A259FF] duration-300 text-[16px] font-semibold" href={"/marketplace"}>{t("marketplace")}</Link>
+        <Link className="text-white hover:text-[#A259FF] duration-300 text-[16px] font-semibold" href={"/"}>{t("marketplace")}</Link>
         <Link className="text-white hover:text-[#A259FF] duration-300 text-[16px] font-semibold" href={"/rankings"}>{t("rankings")}</Link>
-        <Link className="text-white hover:text-[#A259FF] duration-300 text-[16px] font-semibold" href={"/connect-wallet"}>{t("connectWallet")}</Link>
+        <Link className="text-white hover:text-[#A259FF] duration-300 text-[16px] font-semibold" href={"/"}>{t("connectWallet")}</Link>
         <Button icon={<SignUpIcon />} iconPosition="left">{t("signUp")}</Button>
-        <LangConfig/>
+        <LangConfig />
       </div>
       <button className="cursor-pointer lg:hidden"><HamburgerMenuIcon /></button>
     </div>

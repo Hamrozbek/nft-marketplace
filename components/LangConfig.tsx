@@ -20,7 +20,7 @@ const LangConfig = () => {
             const findLang = langList.find(item => item == b)
             if (findLang) setLang(findLang)
         }
-    })
+    }, [b])
 
     return (
         <div className="text-white hidden lg:block relative cursor-pointer hover:scale-[1.2] duration-300 lang-wrapper">

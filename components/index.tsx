@@ -5,5 +5,8 @@ import Heading from "./Heading";
 import SendEmail from "./SendEmail";
 import CollectionCard from "./CollectionCard";
 import CreatorCard from "./CreatorCard";
+import CategoryCard from "./CategoryCard";
+import NFTCard from "./NFTCard";
+import AuctionCountdown from "./AuctionCountdown";
 
-export {CustomImage, Button, Text, Heading, SendEmail, CollectionCard, CreatorCard}
+export {NFTCard ,CategoryCard,CustomImage, Button, Text, Heading, SendEmail, CollectionCard, CreatorCard, AuctionCountdown}
