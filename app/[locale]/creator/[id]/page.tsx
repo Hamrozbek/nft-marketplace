@@ -14,7 +14,7 @@ const SingleCreator: FC<{ params: { id: string } }> = async ({ params }) => {
     const singleData: SingleCreatorType = await getRequest(`/user/${id}`)
     return (
         <section>
-            <div style={{ backgroundImage: `url(${API}/file/${singleData.image})`, backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundAttachment: "fixed", backgroundPosition: "center", height: "320px" }}>
+            <div className="single-creator">
             </div>
             <div className="containers">
                 <div>
@@ -79,3 +79,6 @@ const SingleCreator: FC<{ params: { id: string } }> = async ({ params }) => {
 }
 
 export default SingleCreator
+
+
+

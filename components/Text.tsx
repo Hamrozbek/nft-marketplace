@@ -8,7 +8,7 @@ interface TextType {
 
 const Text: FC<TextType> = ({ classList, children }) => {
     return (
-        <p className={`font-normal text-[#CCCCCC] text-[16px] ${classList}`}>{children}</p>
+        <p className={`font-normal text-[#CCCCCC] text-[12px] lg:text-[16px] ${classList}`}>{children}</p>
     )
 }
 

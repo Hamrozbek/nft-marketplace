@@ -7,7 +7,7 @@ import Text from './Text'
 
 const NFTCard: FC<{ item: NftType; className?: string }> = ({ item, className }) => {
     return (
-        <div className={`w-[330px] nft-wrapper cursor-pointer rounded-[20px] overflow-hidden ${className}`}>
+        <div className={`w-[330px] bg-[#3B3B3B] nft-wrapper cursor-pointer rounded-[20px] overflow-hidden ${className}`}>
             <div className="w-[330px] overflow-hidden h-[296px]">
                 <CustomImage
                     classList="!duration-300"

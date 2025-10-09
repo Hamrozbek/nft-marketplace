@@ -8,8 +8,8 @@ const CategoriesContnet: FC<{ categories: CategoryType[] }> = ({ categories }) =
   return (
     <section className="py-[80px]">
       <div className="containers">
-        <Heading tag="h2" classList="!mb-[60px]">{t("browseCategories")}</Heading>
-        <div className="flex justify-between gap-[30px] flex-wrap">
+        <Heading tag="h2" classList="!mb-[40px] lg:!mb-[60px] text-center lg:text-start">{t("browseCategories")}</Heading>
+        <div className="flex justify-between gap-5 lg:gap-[30px] flex-wrap">
           {categories.map(item => <CategoryCard key={item.id} item={item} />)}
         </div>
       </div>

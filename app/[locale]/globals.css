@@ -31,6 +31,14 @@ body {
     transform: scale(1.2);
 }
 
+.single-creator {
+    background-image: url(../../public/creator-heder.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    background-position: top;
+}
+
 /* .singleCreatorImg{
     background-image: url(../../public/creatorImg.png);
     background-repeat: no-repeat;
