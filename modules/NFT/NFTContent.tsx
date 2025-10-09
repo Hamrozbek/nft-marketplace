@@ -22,7 +22,7 @@ const NFTContent: FC<{ nft: NftType[] }> = ({ nft }) => {
                     {nft.map(item => <NFTCard key={item.id} item={item} />)}
                 </div>
                 <div className="lg:hidden pt-[40px] flex justify-center">
-                    <Button icon={<EyeIcon />} iconPosition="left" classList="!px-[114px]">{t("seeAll")}</Button>
+                    <Button icon={<EyeIcon />} iconPosition="left" classList="px-[114px]">{t("seeAll")}</Button>
                 </div>
             </div>
         </section>

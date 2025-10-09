@@ -7,6 +7,7 @@ const WeeklyContent = () => {
     return (
         <section className="pt-[40px] pb-[80px]">
             <div className="containers">
+                {/* desctop  */}
                 <div className="hidden bg-[#3B3B3B] rounded-[20px] lg:block">
                     <div className="py-[50px] px-[40px] flex justify-between items-center">
                         <img src="/weekly.png" alt="weekly img" width={425} height={310} />
@@ -17,8 +18,9 @@ const WeeklyContent = () => {
                         </div>
                     </div>
                 </div>
+                {/* mobail  */}
                 <div className="lg:hidden">
-                    <div className="py-[40px] px-[30px] flex flex-col justify-between items-center">
+                    <div className="flex flex-col justify-between items-center">
                         <img src="/weekly.png" alt="weekly img" width={315} height={255} />
                         <div className="max-w-[315px] mt-[30px]">
                             <Heading tag="h2">{t("joinOurWeeklyDigest")}</Heading>
